@@ -2,7 +2,7 @@ import { makeRequest } from '../utils/rest';
 import { createWebhook, retrieveWebhook, listWebhooks, toggleWebhook } from './webhooks';
 import faker from 'faker';
 // const fakePrivateKey = faker.random.uuid();
-const fakePrivateKey = "sk_test_aN84kMRFfhkKum9iKzPMyvmM";
+const fakePrivateKey = "sk_live_aN84kMRFfhkKum9iKzPMyvmM";
 
 jest.mock('../utils/rest');
 
