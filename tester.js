@@ -1,6 +1,6 @@
 const Paymongo = require('./dist');
 
-const paymongo = new Paymongo('sk_test_2h6QPgpJtPtW9Drc47bbaBe4');
+const paymongo = new Paymongo('sk_test_aN84kMRFfhkKum9iKzPMyvmM');
 
 // PAYMENT METHODS
 paymongo.paymentMethods.create({
@@ -86,7 +86,7 @@ paymongo.sources.create({
   console.log(err);
 });
 
-PAYMENTS
+// PAYMENTS
 
 paymongo.payments.create({
   data: {
@@ -119,7 +119,7 @@ paymongo.payments.list()
   console.log(err);
 });
 
-WEBHOOKS
+// WEBHOOKS
 
 paymongo.webhooks.create({
   data: {
