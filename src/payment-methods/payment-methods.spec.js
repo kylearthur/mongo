@@ -1,7 +1,7 @@
 import { makeRequest } from '../utils/rest';
 import { createPaymentMethod, retrievePaymentMethod } from './payment-methods';
-import faker from 'faker';
-const fakePrivateKey = faker.random.uuid();
+// import faker from 'faker';
+const fakePrivateKey = "sk_live_aN84kMRFfhkKum9iKzPMyvmM";
 
 jest.mock('../utils/rest');
 

@@ -12,7 +12,7 @@ beforeEach(() => {
 
 describe('Webhooks', () => {
   describe('|- createWebhook', () => {
-    const id = faker.random.uuid();
+    const id = fakePrivateKey;
     makeRequest.mockImplementationOnce(() => Promise.resolve({
       data: { id },
     }));
@@ -57,7 +57,7 @@ describe('Webhooks', () => {
   });
 
   describe('|- toggleWebhook', () => {
-    const id = faker.random.uuid();
+    const id = fakePrivateKey;
     it('should return object with id for action enable', async () => {
       makeRequest.mockImplementationOnce(() => Promise.resolve({
         data: { id },

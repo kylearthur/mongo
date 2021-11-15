@@ -1,7 +1,7 @@
 import { makeRequest } from '../utils/rest';
 import { createToken, retrieveToken } from './tokens';
 import faker from 'faker';
-const fakePrivateKey = faker.random.uuid();
+const fakePrivateKey = "sk_live_aN84kMRFfhkKum9iKzPMyvmM";
 
 jest.mock('../utils/rest');
 
